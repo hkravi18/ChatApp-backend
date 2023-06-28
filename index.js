@@ -34,7 +34,7 @@ const server = app.listen(process.env.PORT, () => {
 
 const io = socket(server, {
     cors: {
-        origin: "https://chatapp-y06o.onrender.com/",
+        origin: "https://chat-app-zus4.onrender.com/",
         credentials: true, 
     }
 })
